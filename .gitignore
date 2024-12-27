@@ -1,0 +1,10 @@
+env/
+dashboard-div/
+data
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# CI/CD configurations (if sensitive data is used)
+.github/secrets/
