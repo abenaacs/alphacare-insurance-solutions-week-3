@@ -1,6 +1,6 @@
 env/
 dashboard-div/
-data
+# data
 __pycache__/
 *.py[cod]
 .venv/
