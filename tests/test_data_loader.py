@@ -1,5 +1,5 @@
 import unittest
-from src.data_loader import DataLoader
+from scripts.data_loader import DataLoader
 from pathlib import Path
 import pandas as pd
 
