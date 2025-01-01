@@ -3,7 +3,7 @@ import shap
 
 def explain_model_with_shap(model, X_train, X_test, feature_names):
     """
-    Explains the Random Forest model using SHAP.
+    Explains the model using SHAP.
     """
     explainer = shap.Explainer(
         model, X_train, check_additivity=False

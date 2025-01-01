@@ -10,6 +10,14 @@ The `src` directory contains the core modules of the AlphaCare application.
 - **`data_loader.py`:** Handles data ingestion and validation.
 - **`visualizer.py`:** Provides functionalities for generating visualizations and statistical plots.
 - **`README.md`:** Documentation for this directory.
+- **`preprocessing.py`:**
+  **Purpose**:
+  Prepares data for analysis and modeling.
+  **Key Functions**:
+  load_data: Loads raw data into a pandas DataFrame.
+  clean_data: Handles missing values, removes outliers, and fixes inconsistencies.
+  feature_engineering: Generates new, meaningful features to improve model performance.
+  encode_categorical: Converts categorical variables into a machine-learning-compatible format.
 
 ## Module Details
 

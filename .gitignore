@@ -5,6 +5,8 @@ __pycache__/
 *.py[cod]
 .venv/
 *.egg-info/
-
+data/
+.git
 # CI/CD configurations (if sensitive data is used)
 .github/secrets/
+LocalDataStorage/

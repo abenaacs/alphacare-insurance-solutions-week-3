@@ -1,7 +1,7 @@
 # test_visualizer.py: Test cases for Visualizer
 import unittest
 import pandas as pd
-from src.visualizer import Visualizer
+from scripts.visualizer import Visualizer
 from pathlib import Path
 
 
